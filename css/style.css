@@ -4,13 +4,16 @@
 --title-text-color:#434455;
 --button-color:#E7E9FC;}
 
-.page2{background-color:#FFFFFF;
- }
+body{background-color: #FFFFFF;
+color: var(--black-text-color);
+font-family: roboto, sans-serif;
+}
+
 
 /* logo */
-.logo{color: #2E2F42;}
+.logo{color:var(--black-text-color);
+font-family:Raleway, sans-serif ;}
 .blue {color: var(--accent-color); }
-.blue :hover {color: red;}
 
 .contact:hover{color: bisque;}
 
@@ -26,9 +29,13 @@ color:var(--accent-color) ;}
 /* -------------- */
 
 /* nav */
+/* видалення крапок */
 .list {list-style: none;}
+/* ---------------------- */
 .contact .contact-link { color: var(--title-text-color); }
-.site-nav .list {color:var(--black-text-color);}
+.menu-nav .list {color:var(--black-text-color);}
+
+
 /* section */
 .section-one .list {color: var(--accent-color);}
 .content{color: var(--black-text-color);}
