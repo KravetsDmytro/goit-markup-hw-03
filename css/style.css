@@ -1,0 +1,36 @@
+:root {
+--black-text-color:#2E2F42;
+--accent-color:#4D5AE5;
+--title-text-color:#434455;
+--button-color:#E7E9FC;}
+
+.page2{background-color:#FFFFFF;
+ }
+
+/* logo */
+.logo{color: #2E2F42;}
+.blue {color: var(--accent-color); }
+.blue :hover {color: red;}
+
+.contact:hover{color: bisque;}
+
+.link:hover{background-color: black; color:red ;}
+/* button */
+.button{background-color: var(--button-color);
+color:var(--accent-color) ;}
+
+.button:hover ,.button:focus {color: var(--button-color);
+     background-color: var(--accent-color);}
+ 
+
+/* -------------- */
+
+/* nav */
+.list {list-style: none;}
+.contact .contact-link { color: var(--title-text-color); }
+.site-nav .list {color:var(--black-text-color);}
+/* section */
+.section-one .list {color: var(--accent-color);}
+.content{color: var(--black-text-color);}
+.main h3{color: var(--black-text-color);}
+.main p{color:var(--title-text-color);}
