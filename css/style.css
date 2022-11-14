@@ -34,6 +34,19 @@ font-family: 'Raleway';
 }
 
 .link:hover, :focus{background-color:var(--accent-color); color:red ;}
+/* hero */
+.hero {background-color: var(--title-text-color);}
+.hero-title {font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 56px;
+     line-height: 1.1;
+     color: #FFFFFF     ;
+     text-align: center;
+
+}
+.footer-title{color: var(--button-color);}
+
 
 /* button */
 
@@ -64,7 +77,8 @@ font-style: normal;
 .section-one .list {color: var(--accent-color);}
 .content{color: var(--black-text-color);}
 
-.list .title-list{font-style: normal;
+.list .title-list{color: var(--black-text-color);
+     font-style: normal;
      font-weight: 600;
      font-size: 16px;
      line-height: 1.2;}
@@ -76,3 +90,10 @@ font-style: normal;
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;}
+
+     .footer{ background-color: var(--title-text-color);
+
+     }
+
+
+     
