@@ -3,21 +3,20 @@
 --accent-color:#4D5AE5;
 --title-text-color:#434455;
 --button-color:#E7E9FC;}
+body{font-family: Roboto;}
 
-body{background-color: #FFFFFF;
-color: var(--black-text-color);
-font-family: roboto, sans-serif;
-}
-
+/* шапка */
+.menu .menu-nav {Text style: Body Bold Font family: Roboto Font style: SemiBold Font size: 
+     16px Line height: 24px Line height: 128%
+      Align: Left Vertical align: Top Letter spacing: 2%}
 
 /* logo */
-.logo{color:var(--black-text-color);
+.logo{color:var();
 font-family:Raleway, sans-serif ;}
 .blue {color: var(--accent-color); }
-
 .contact:hover{color: bisque;}
 
-.link:hover{background-color: black; color:red ;}
+.link:hover, :focus{background-color:var(--accent-color); color:red ;}
 /* button */
 .button{background-color: var(--button-color);
 color:var(--accent-color) ;}
@@ -32,6 +31,8 @@ color:var(--accent-color) ;}
 /* видалення крапок */
 .list {list-style: none;}
 /* ---------------------- */
+.list-link {color:var(--black-text-color);Font style: SemiBold Font size: 16px Line height: 24px Line height: 128% Align: Left}
+
 .contact .contact-link { color: var(--title-text-color); }
 .menu-nav .list {color:var(--black-text-color);}
 
@@ -39,5 +40,11 @@ color:var(--accent-color) ;}
 /* section */
 .section-one .list {color: var(--accent-color);}
 .content{color: var(--black-text-color);}
-.main h3{color: var(--black-text-color);}
-.main p{color:var(--title-text-color);}
+.main .list .title{color: var(--black-text-color);
+Font size: 20px Line height: 24px Line height: 102% Align: Left Vertical align: 
+Top Letter spacing: 2%;}
+
+
+.p{color:var(--title-text-color);
+Font size: 16px Line height: 24px Line height: 128% Align:
+ Left Vertical align: Top Letter spacing: 2% ;}
