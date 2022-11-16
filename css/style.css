@@ -1,99 +1,143 @@
 :root {
---black-text-color:#2E2F42;
---accent-color:#4D5AE5;
---title-text-color:#434455;
---button-color:#E7E9FC;}
-body{font-family: Roboto;}
-
-
+  --black-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --title-text-color: #434455;
+  --button-color: #e7e9fc;
+}
+body {
+  font-family: Roboto;
+}
 
 /* шапка  header*/
+.header {
+  text-decoration: none;
+}
 .header-nav .list-link {
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 16px;
-     line-height: 24px;}
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
 
+/* видалення крапок */
+.list {
+  list-style: none;
+}
 
 /* logo */
-.logo{color:var(--black-text-color);
-font-family: 'Raleway';
-     font-style: normal;
-     font-weight: 800;
-     font-size: 18px;
-     line-height: 1.3;
-     align-items: center;
-     }
-
-.blue {color: var(--accent-color); }
-.contact{font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
+.logo {
+  color: var(--black-text-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  align-items: center;
+  text-decoration: none;
 }
 
-.link:hover, :focus{background-color:var(--accent-color); color:red ;}
+.blue {
+  color: var(--accent-color);
+}
+.contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.link:hover,
+:focus {
+  background-color: var(--accent-color);
+  color: red;
+}
 /* hero */
-.hero {background-color: var(--title-text-color);}
-.hero-title {font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 56px;
-     line-height: 1.1;
-     color: #FFFFFF     ;
-     text-align: center;
-
+.hero {
+  background-color: var(--title-text-color);
 }
-.footer-title{color: var(--button-color);}
-
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.1;
+  color: #ffffff;
+  text-align: center;
+}
 
 /* button */
 
-.button {background-color: var(--button-color);
-color:var(--accent-color) ;
-font-style: normal;
-     font-weight: 600;
-     font-size: 16px;
-     line-height: 24px;}
+.button {
+  background-color: var(--button-color);
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
 
-.button:hover ,.button:focus {color: var(--button-color);
-     background-color: var(--accent-color);}
- 
+.button:hover,
+.button:focus {
+  color: var(--button-color);
+  background-color: var(--accent-color);
+}
+
+/* Заголовки */
+.heading {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
 
 /* -------------- */
 
 /* nav */
-/* видалення крапок */
-.list {list-style: none;}
+
 /* ---------------------- */
-.list-link {color:var(--black-text-color);Font style: SemiBold Font size: 16px Line height: 24px Line height: 128% Align: Left}
+.list-link {
+  color: var(--black-text-color);
+}
 
-.contact .contact-link { color: var(--title-text-color); }
-.menu-nav .list {color:var(--black-text-color);}
-
+.contact .contact-link {
+  color: var(--title-text-color);
+}
+.menu-nav .list {
+  color: var(--black-text-color);
+}
 
 /* section  main*/
-.section-one .list {color: var(--accent-color);}
-.content{color: var(--black-text-color);}
+.section-one .list {
+  color: var(--accent-color);
+}
+.content {
+  color: var(--black-text-color);
+}
 
-.list .title-list{color: var(--black-text-color);
-     font-style: normal;
-     font-weight: 600;
-     font-size: 16px;
-     line-height: 1.2;}
+.title-list {
+  color: var(--black-text-color);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-decoration: none;
+}
 
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
 
-.subtitle {color:var(--title-text-color);
-     font-family: 'Roboto';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.5;}
-
-     .footer{ background-color: var(--title-text-color);
-
-     }
-
-
-     
+/* footer */
+.footer {
+  background-color: var(--title-text-color);
+}
+.footer-title {
+  color: var(--button-color);
+}
