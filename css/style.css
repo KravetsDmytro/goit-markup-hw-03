@@ -3,9 +3,11 @@
   --accent-color: #4d5ae5;
   --title-text-color: #434455;
   --button-color: #e7e9fc;
+  --body-color-white: #ffffff;
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  background-color: var(--body-color-white);
 }
 
 /* шапка  header*/
@@ -13,11 +15,10 @@ body {
   text-decoration: none;
 }
 .header-nav .list-link {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-decoration: none;
 }
 
@@ -31,12 +32,13 @@ body {
 .logo {
   color: var(--black-text-color);
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3;
   align-items: center;
   text-decoration: none;
+  text-transform: uppercase;
+
 }
 
 .blue {
@@ -50,10 +52,16 @@ body {
   text-decoration: none;
 }
 
+.list-link:hover {
+  color: var(--title-text-color);
+}
+.list-link:focus {
+  color: var(--accent-color);
+}
+
 .link:hover,
 :focus {
-  background-color: var(--accent-color);
-  color: red;
+  color: var(--accent-color);
 }
 /* hero */
 .hero {
@@ -61,26 +69,40 @@ body {
 }
 .hero-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 600;
   font-size: 56px;
   line-height: 1.1;
-  color: #ffffff;
+  color: var(--body-color-white);
   text-align: center;
 }
 
 /* button */
-
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--body-color-white);
+  font-family: inherit;
+  cursor: pointer;
+}
+.button-hero:hover {
+  background-color: var(--accent-color);
+}
+.button-hero:focus {
+  background-color: #404bbf;
+}
 .button {
   background-color: var(--button-color);
   color: var(--accent-color);
-  font-style: normal;
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
+  cursor: pointer;
 }
 
-.button:hover,
+.button:hover {
+  color: var(--button-color);
+  background-color: var(--accent-color);
+}
 .button:focus {
   color: var(--button-color);
   background-color: var(--accent-color);
@@ -104,18 +126,21 @@ body {
   color: var(--black-text-color);
 }
 
-.contact .contact-link {
+.contact-link {
   color: var(--title-text-color);
   text-decoration: none;
 }
+
+.contact-link:hover {
+  color: var(--accent-color);
+}
+
 .menu-nav .list {
   color: var(--black-text-color);
 }
 
 /* section  main*/
-.section-one .list {
-  color: var(--accent-color);
-}
+
 .content {
   color: var(--black-text-color);
 }
@@ -128,8 +153,6 @@ body {
 }
 
 .subtitle {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
