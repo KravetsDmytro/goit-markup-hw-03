@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --black-text-color: #2e2f42;
   --accent-color: #4d5ae5;
