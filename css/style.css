@@ -16,10 +16,18 @@ body {
   background-color: var(--body-color-white);
 }
 
+
 /* шапка  header*/
-.header {
-  text-decoration: none;
+.container {  width: 1140px;
+  
 }
+
+.section { 
+  margin-top: 120px;
+  margin-bottom: 120px;
+
+}
+
 .header-nav .list-link {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -32,6 +40,8 @@ body {
 .list {
   list-style: none;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* logo */
@@ -67,25 +77,36 @@ body {
 .link:hover:focus {
   color: var(--accent-color);
 }
+/* приховати заголовок  */
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; clip: rect(0 0 0 0); overflow: hidden; }
+
+
 /* hero */
 .hero {
   background-color: var(--title-text-color);
+  text-align: center;
 }
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: "Roboto";
   font-weight: 600;
   font-size: 56px;
   line-height: 1.1;
   color: var(--body-color-white);
   text-align: center;
+  margin-bottom: 48px;
 }
 
 /* button */
 .button-hero {
+  display: inline-block;
   background-color: var(--accent-color);
+  min-width: 170px;
   color: var(--body-color-white);
   font-family: inherit;
-  cursor: pointer;
+  cursor: pointer; border-radius: 4px; padding:16px 32px ;
+  
   }
 .button-hero:hover {
   background-color: var(--accent-color);
@@ -95,12 +116,15 @@ body {
 }
 .button {
   background-color: var(--button-color);
+  display: inline-block;
   color: var(--accent-color);
+  border: 1px solid var(--button-color);
   font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover {
@@ -114,7 +138,8 @@ body {
 
 /* Заголовки */
 .heading {
-  font-family: "Roboto";
+margin-top: 0;
+margin-bottom: 72px;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
@@ -150,6 +175,8 @@ body {
 }
 
 .title-list {
+  margin-bottom: 8px;
+  margin-top: 0;
   color: var(--black-text-color);
   font-weight: 600;
   font-size: 20px;
@@ -157,6 +184,8 @@ body {
 }
 
 .subtitle {
+  margin-bottom: 0;
+  margin-top: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
