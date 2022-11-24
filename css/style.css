@@ -18,8 +18,17 @@ body {
 
 
 /* шапка  header*/
-.container {  width: 1140px;
-  
+.header{
+  border-bottom: solid 1px var(--title-text-color);
+}
+
+
+.container {  width: 1158px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    border:solid 1px var(--black-text-color)
+
 }
 
 .section { 
@@ -28,13 +37,29 @@ body {
 
 }
 
+.header-nav{
+display: flex;}
+
+
+.header-nav-item:not(:last-child)
+{margin-right: 40px;}
+
+/* .header-nav-item:last-child{margin-right: 0;} */
+
 .header-nav .list-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
 }
+/* main-nav */
+.main-nav{display: flex;
+align-items: center;
+
+}
+.header .contact {display: flex; margin-left: auto;
+}
+
 
 /* видалення крапок */
 .list {
@@ -54,6 +79,7 @@ body {
   align-items: center;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 77px;
 }
 
 .blue {
@@ -67,8 +93,10 @@ body {
   text-decoration: none;
 }
 
+
 .list-link:hover {
   color: var(--title-text-color);
+  
 }
 .list-link:focus {
   color: var(--accent-color);
@@ -83,9 +111,13 @@ body {
 
 /* hero */
 .hero {
-  background-color: var(--title-text-color);
+  background-color: var(--black-text-color);
   text-align: center;
+  
 }
+.container-hero{padding-top: 192px;
+padding-bottom: 192px;}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 0;
@@ -114,7 +146,11 @@ body {
 .button-hero:focus {
   background-color: #404bbf;
 }
+
+
+
 .button {
+
   background-color: var(--button-color);
   display: inline-block;
   color: var(--accent-color);
@@ -153,11 +189,15 @@ margin-bottom: 72px;
 /* ---------------------- */
 .list-link {
   color: var(--black-text-color);
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contact-link {
   color: var(--title-text-color);
   text-decoration: none;
+  margin-left: 40px;
 }
 
 .contact-link:hover {
@@ -168,15 +208,23 @@ margin-bottom: 72px;
   color: var(--black-text-color);
 }
 
+.filtr {padding-bottom: 72px;}
 /* section  main*/
 
 .content {
   color: var(--black-text-color);
 }
 
+/* секція наша команда */
+
+.our-time  { padding-top: 120px;
+  padding-bottom: 120px;}
+/* --------------- */
+.section-portfolio{ margin-top: 96px;}
+
 .title-list {
   margin-bottom: 8px;
-  margin-top: 0;
+  margin-top:32;
   color: var(--black-text-color);
   font-weight: 600;
   font-size: 20px;
@@ -195,8 +243,12 @@ margin-bottom: 72px;
 }
 /* footer */
 .footer {
-  background-color: var(--title-text-color);
+  background-color: var(--black-text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-title {
   color: var(--button-color);
+  margin-top: 16px;
+  margin-bottom: 0;
 }
