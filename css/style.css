@@ -319,9 +319,9 @@ p {
   flex-basis: calc((100%-48px) / 3);
   background: var(--body-color-white);
   margin-right: 24px;
-
   margin-bottom: 48px;
 }
+
 
 .title-list {
   color: var(--black-text-color);
@@ -329,6 +329,12 @@ p {
   font-size: 20px;
   line-height: 1.2;
 }
+
+.text-portfolio{
+margin-top: 32px;
+margin-bottom: 32px;
+}
+.text-portfolio> .title-list{ padding-bottom: 8px;}
 
 .subtitle {
   margin-bottom: 0;
