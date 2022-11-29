@@ -10,6 +10,8 @@
   --button-color: #e7e9fc;
   --body-color-white: #ffffff;
   --background-color-fon: #f4f4fd;
+  --subtle-text-color: #8E8F99;
+  --green-color: #31D0AA;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -31,9 +33,7 @@ p {
 .header {
   border-bottom: solid 1px var(--title-text-color);
   background: var(--body-color-white);
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+  border-bottom: 1px solid var(--subtle-text-color);}
 
 .container {
   width: 1158px;
