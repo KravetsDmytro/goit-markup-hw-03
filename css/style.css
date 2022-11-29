@@ -24,6 +24,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
 /* шапка  header*/
@@ -307,19 +308,20 @@ p {
   background-color: var(--background-color-fon);
 }
 /* --------------- */
+.img-block{display: block;
+margin: 0;}
 
-.portfolio-list {
+
+.card-set  {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -24px;
-  margin-bottom: -48px;
+  gap:24px
 }
-.portfolio-list > .flex-element {
-  outline: 1px solid tomato;
-  flex-basis: calc((100%-48px) / 3);
+.flex-element {
+ flex-basis: calc((100% - 48px) / 3);
   background: var(--body-color-white);
-  margin-right: 24px;
-  margin-bottom: 48px;
+  border: 0.5px solid #F4F4FD;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
