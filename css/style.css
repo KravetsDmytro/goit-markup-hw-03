@@ -333,6 +333,7 @@ margin: 0;}
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
+
 }
 
 .text-portfolio{
@@ -343,7 +344,7 @@ padding-right: 16px;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 }
-.text-portfolio> .title-list{ padding-bottom: 8px;}
+.text-portfolio> .title-list{ margin-bottom: 8px;}
 
 .subtitle {
   margin-bottom: 0;
